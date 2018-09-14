@@ -93,6 +93,7 @@ namespace App3
                         mediaPlayer.SetMediaStreamSource(mss);
 
                         mediaPlayer.Play();
+                        VideoName.Text = "Now playing: " + file.Name;
                     }
                     else
                     {
@@ -103,7 +104,7 @@ namespace App3
                 catch (Exception exception)
                 {
                     //                System.Console.WriteLine(exception);
-                    //                throw;
+                    throw;
                 }
             }
         }

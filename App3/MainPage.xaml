@@ -25,6 +25,7 @@
                     <CommandBar Background="Transparent" IsOpen="False" DefaultLabelPosition="Right">
                         <AppBarButton Icon="Library" Label="Open File" Tapped="LoadVideoFile"></AppBarButton>
                     </CommandBar>
+                    <TextBlock x:Name="VideoName" HorizontalAlignment="Center" TextAlignment="Center"></TextBlock>
                     <MediaElement x:Name="mediaPlayer" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RequestedTheme="Dark" Height="500" Width="700" Stretch="Uniform">
 
                     </MediaElement>
